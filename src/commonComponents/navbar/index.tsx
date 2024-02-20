@@ -1,11 +1,28 @@
-"use client"
+'use client';
+import React from 'react';
+import { ASSETS } from '../../assets';
+import { Button } from '@mui/material';
+import useIsDarkMode from '../../Helpers/useIsDarkMode';
 
-import React from 'react'
-
+import { GREYONE, SECONDARY_COLOR } from '../../constants';
 const Navbar = () => {
-  return (
-    <div>Navbar</div>
-  )
-}
+  const isDarkMode = useIsDarkMode();
 
-export default Navbar
+  return (
+    <>
+      <div className="nav-wrap sizing">
+        <div className="navlinks">
+          <div className="logo">
+            {isDarkMode ? <img src={ASSETS.logoGreen} alt="" /> : <img src={ASSETS.logoBlack} alt="" />}
+          </div>
+          <div className="btn-links">
+            <Button className="nav-btns log">Login</Button>
+            <Button className="nav-btns sign">Sign Up</Button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Navbar;

@@ -12,7 +12,7 @@ export const BASIC_GREEN = '#F1FCEA';
 export const BASIC_GREY = '#FAFAFA';
 export const NEON_GREEN = '#9FE870';
 export const TEXT_CHARCOAL = '#202020';
-
+export const GREYONE = 'rgb(213,217,213)';
 export const DARK_PRIMARY_COLOR = 'rgba(159, 232, 112, 1)';
 export const DARK_SECONDARY_COLOR = 'rgba(22, 51, 0, 1)';
 export const DARK_BACKGROUND_COLOR_MAIN = 'rgba(32, 32, 32, 1)';

@@ -1,6 +1,7 @@
 export const ASSETS = {
   defaultGlobalImage: 'https://res.cloudinary.com/daoawcamj/image/upload/v1707597685/actmttfunk4v17mk6664.png',
   favGreen: '/fav/favGreen.svg',
+  spotify: '/images/spotify.svg',
   favWhite: '/fav/favWhite.svg',
   favBlack: '/fav/favBlack.svg',
   favGrey: '/fav/favGrey.svg',
@@ -18,4 +19,5 @@ export const ASSETS = {
   publicViewLight: '/images/publicViewLight.svg',
   close: '/images/close.svg',
   expand: '/images/expand.svg',
+  greenunder: '/images/greenunder.svg',
 };

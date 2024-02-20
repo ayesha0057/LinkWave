@@ -1,0 +1,21 @@
+.profile-wrap {
+  //   background-color: var(--text-color-secondary);
+  border-radius: 21.66px;
+  display: flex;
+  justify-content: center;
+  padding-block: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  .profile-portfolio {
+    img {
+      width: 700px;
+    }
+  }
+}
+@media only screen and (max-width: 425px) {
+  .profile-portfolio {
+    img {
+      width: 300px;
+    }
+  }
+}

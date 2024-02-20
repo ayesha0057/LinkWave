@@ -79,6 +79,7 @@ export const lightThemeOptions = createTheme({
         root: {
           borderRadius: '15px',
           fontWeight: '600',
+          fontFamily: 'Montserrat, sans',
         },
       },
     },
@@ -144,6 +145,7 @@ export const darkThemeOptions = createTheme({
         root: {
           borderRadius: '15px',
           fontWeight: '600',
+          fontFamily: 'Montserrat, sans',
         },
       },
     },

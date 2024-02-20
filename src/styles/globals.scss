@@ -12,7 +12,7 @@
 }
 
 @import './variables/Variables';
-@import './mixins/Flex.scss';
+@import './components/Home';
 
 * {
   margin: 0;
@@ -29,24 +29,48 @@ body {
   background-position: center;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (min-width: 1024px) {
+  .sizing {
+    padding-inline: 4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sizing {
+    padding-inline: 2rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .sizing {
+    padding-inline: 1rem;
+  }
+}
 h1,
 h2,
 h3,
 h4,
 input {
-  font-family: $FONT_SECONDARY;
+  font-family: 'Montserrat';
 }
 h5,
 p,
 button,
 li,
 span {
-  font-family: $FONT;
+  // font-family: $FONT;
   box-shadow: none !important;
+}
+h6 {
+  font-family: 'Racama' !important;
 }
 
 button {
-  font-weight: 600;
+  // font-weight: 600;
 }
 
 h1,

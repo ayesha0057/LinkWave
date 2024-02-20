@@ -1,0 +1,35 @@
+.monitor-wrap {
+  padding-block: 2rem;
+  background-color: var(--green-background-color);
+}
+.monitor-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.monitor {
+  h1 {
+    color: rgba(32, 32, 32, 1);
+  }
+  h4 {
+    color: rgba(32, 32, 32, 1);
+  }
+}
+.monitor-img {
+}
+@media only screen and (max-width: 768px) {
+  .monitor-img img {
+    width: 400px !important;
+    padding-block: 2rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .monitor-content {
+    flex-direction: column;
+  }
+
+  .monitor-img img {
+    width: 300px !important;
+    padding-block: 2rem;
+  }
+}
